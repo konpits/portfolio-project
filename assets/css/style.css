@@ -7,38 +7,10 @@ body {
     border: .4px solid black;
 } */
 
-hr {
-    width: 0;
-}
-
 .content {
     /* width: 411px; */
     width: 100%;
     display: grid;
-}
-
-
-header {
-    background-color: #212027;
-    font-family: 'Roboto';
-    color: #fff;
-    height: 30px;
-    width: 100%;
-    text-align: left;
-}
-
-.logo {
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: #fff;
-    text-decoration:  none;
-    position: relative;
-    top: 5px;
-    left: 4%; }
-     @media (min-width: 991px) {
-    .logo {
-           font-size: 20px; 
-    } 
 }
 
 .color {
@@ -49,14 +21,16 @@ header {
     position: relative;
     width:100%;
     text-align: center; 
-    height: 100vh; }
+    background-image: url('/assets/img/KonMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh; }
     @media (min-width: 991px) {
         .background-image {
             position: relative;
             width:100%;
             text-align: center;
             background-image: url('/assets/img/Kon.jpg');
-        
             background-repeat: no-repeat;
             background-size: cover;
             height: 98vh;
@@ -67,7 +41,7 @@ header {
 .intro {
     background-color: #212027;
     color: #fff;
-    font-weight: bold;
+    font-weight: bolder;
     height: 100vh;
     width: 100%; 
 }
@@ -78,15 +52,32 @@ header {
     top: 30%;
     width:100%;
     text-align: center;
+    font-size: 22px;
+    line-height: 5px; }
+    @media (min-width: 991px) {
+        .intro-header {
+            width: 100%;
+            font-size: 1.4em;
+            text-align: center;
+            top: 30%;
+    } 
 }
 
 .intro-description {
     font-family: 'Raleway';
     position: relative;
-    top: 48%;
-    width:100%;
-    text-align: center;
+    top: 65%;
+    width: 98%;
+    text-align: right;
     font-size: 23px;
+    font-weight: bold; }
+    @media (min-width: 991px) {
+        .intro-description {
+            width: 100%;
+            font-size: 1.4em;
+            text-align: center;
+            top: 60%;
+    } 
 }
 .education-menu-box {
     position: relative;
@@ -307,10 +298,17 @@ ul {
 }
  
 .contact-wrapper p {
+    position: relative;
     height: 10em;
     line-height: 1.5;
-    font-size: 23px;
-}
+    font-size: 20px; }
+    @media (min-width: 991px) {
+        .contact-wrapper p {
+            width: 40%;
+            left: 30%;
+            font-size: 23px; 
+    }
+} 
 
 .box 
 {
