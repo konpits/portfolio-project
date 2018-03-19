@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;
+}
+/* * {
+    border: .4px solid black;
+} */
+
+hr {
+    width: 0;
+}
+
+.content {
+    /* width: 411px; */
+    width: 100%;
+    display: grid;
+}
+
+
+header {
+    background-color: #212027;
+    font-family: 'Roboto';
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.logo {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+    text-decoration:  none;
+    position: relative;
+    top: 5px;
+    left: 4%; }
+     @media (min-width: 991px) {
+    .logo {
+           font-size: 20px; 
+    } 
+}
+
+.color {
+    color: #F22F08;
+}
+
+.background-image {
+    position: relative;
+    width:100%;
+    text-align: center; 
+    height: 100vh; }
+    @media (min-width: 991px) {
+        .background-image {
+            position: relative;
+            width:100%;
+            text-align: center;
+            background-image: url('/assets/img/Kon.jpg');
+        
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 98vh;
+    }
+}
+
+
+.intro {
+    background-color: #212027;
+    color: #fff;
+    font-weight: bold;
+    height: 100vh;
+    width: 100%; 
+}
+
+.intro-header {
+    font-family: 'Open Sans';
+    position: relative;
+    top: 30%;
+    width:100%;
+    text-align: center;
+}
+
+.intro-description {
+    font-family: 'Raleway';
+    position: relative;
+    top: 48%;
+    width:100%;
+    text-align: center;
+    font-size: 23px;
+}
+.education-menu-box {
+    position: relative;
+    width: 100%;
+    background-color: #212027;
+}
+
+.education-title {
+    width: 130px;
+    height: 32px;
+    background-color: #fff;
+    font-family: 'Open Sans';
+    color: #212027;
+    font-size: 23px;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.education-container {
+    position: relative;
+    color: #212027;
+    width: 100%;
+    font-size: 1.2em; }
+    @media (min-width: 991px) {
+        .education-container {
+            font-size: 1.4em;
+    } 
+}
+
+.education-container p {
+    font-family: 'Raleway';
+    position: relative;
+    left: 5%;
+    line-height: 1.5;
+    width: 95%;
+}
+
+.education-container h4 {
+    font-family: 'Open Sans';
+    position: relative;
+    left: 5%;
+    width: 95%;
+}
+
+.skills {
+    position: relative;
+}
+
+.skills-title {
+    width: 130px;
+    height: 32px;
+    background-color: #212027;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+    float: right; }
+    @media (min-width: 991px) {
+        .ul {
+            height: 40px;
+            font-size: 30px;
+    } 
+}
+
+.skills-container {
+    width: 100%;
+    background-color: #212027;
+    margin-top: 32px;
+
+}
+
+.skills-wrapper {
+    position: relative;
+    left: 5%;
+    top: 3em;
+    width: 90%;
+}
+
+.skill-level, .skill-description {
+    height: 23em;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+    /* width: 33%; */
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 18px; }
+    @media (min-width: 991px) {
+        .ul {
+            font-size: 24px;
+    } 
+}
+
+
+.beginner {
+    padding: 4px;
+    background: #F22F08;
+    border: 8px solid #212027;
+    border-radius: 25px;
+    width: 30px; }
+    @media (min-width: 991px) {
+        .beginner{
+            width: 90px;
+    } 
+}
+
+.intermediate {
+    padding: 4px;
+    background: #F22F08;
+    border: 8px solid #212027;
+    border-radius: 25px;
+    width: 60px; }
+    @media (min-width: 991px) {
+        .intermediate {
+            width: 180px;
+    } 
+}
+
+.advanced {
+    padding: 4px;
+    background: #F22F08;
+    border: 8px solid #212027;
+    border-radius: 25px;
+    width: 90px; }
+    @media (min-width: 991px) {
+        .advanced {
+            width: 270px;
+    } 
+}
+
+
+.empty {
+    padding: 4px;
+    background: #212027;
+    border: 8px solid #212027;
+    border-radius: 25px;
+    width: 90px;
+}
+
+.experience-menu-box {
+    position: relative;
+    width: 100%;
+    background-color: #212027;
+}
+
+.experience-title {
+    position: relative;
+    width: 130px;
+    height: 32px;
+    background-color: #fff;
+    font-family: 'Open Sans';
+    color: #212027;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experience-container {
+    font-size: 1.2em; }
+    @media (min-width: 991px) {
+        .experience-container {
+            font-size: 1.4em;
+    } 
+}
+
+.experience-container p {
+    font-family: 'Raleway';
+    position: relative;
+    left: 5%;
+    line-height: 1.5;
+    width: 95%;
+}
+
+.experience-container h4 {
+    font-family: 'Open Sans';
+    position: relative;
+    left: 5%;
+    width: 95%
+}
+
+.contact-title {
+    position: relative;
+    width: 130px;
+    height: 32px;
+    background-color: #212027;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+}
+
+.contact {
+    position: relative;
+    color: #fff;
+}
+
+.contact-container {
+    width: 100%;
+    background-color: #212027;
+    margin-top: 32px;
+
+}
+
+.contact-wrapper {
+    position: relative;
+    left: 5%;
+    top: 3em;
+    width: 90%;
+}
+ 
+.contact-wrapper p {
+    height: 10em;
+    line-height: 1.5;
+    font-size: 23px;
+}
+
+.box 
+{
+  position: relative;
+  
+  top: 50%;
+  left: 13%;
+  width: 70%;
+  padding: 40px;
+  background: #313037;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 2px;
+  font-family: 'Raleway'; }
+  @media (min-width: 991px) {
+    .box {
+        width: 40%;
+        left: 30%;
+    }
+} 
+
+.box h2 
+{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.box .inputBox 
+{
+  position: relative;
+}
+.box .inputBox input 
+{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.box .inputBox label 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+.box .inputBox input:focus ~label,
+.box .inputBox input:valid ~label
+{
+  top: -18px;
+  left: 0;
+    color: #F22F08;
+  font-size: 12px;
+}
+.box input[type="submit"]
+{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #212027;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  float: right;
+  font-size: 1em;
+}
+
+footer {
+    height: 1.5em;
+    background-color: #212027;
+}
