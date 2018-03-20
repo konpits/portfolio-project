@@ -30,7 +30,15 @@ The main design tool that was used was Figma. I experimented on colours, fonts a
 I also used online tools to navigate and assess colour and font choices. 
 My Figma project is here: 
 
+
 [Figma](https://www.figma.com/file/YEgXhjMt8LXZt3EDV6UTgwmt/Personal-Website?node-id=35%3A80)
+
+![Preliminary ideas and scheme](./Figma/Stage1.png)
+
+![Settling on design and colors](./Figma/Stage2.png)
+
+![Preliminary ideas and scheme](./Figma/Stage3.png)
+
 
 ### Resources used
 These are the main tools that I used in the process of making my portfolio website
