@@ -3,12 +3,8 @@ body {
     text-align: center;
     word-wrap: break-word;
 }
-/* * {
-    border: .4px solid black;
-} */
 
 .content {
-    /* width: 411px; */
     width: 100%;
     display: grid;
 }
@@ -17,26 +13,20 @@ body {
     color: #F22F08;
 }
 
+  /********** intro section **********/
 .background-image {
     position: relative;
     width:100%;
+    height: 98vh;
     text-align: center; 
     background-image: url('/assets/img/KonMobile.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 98vh; }
+    background-size: cover; }
     @media (min-width: 991px) {
         .background-image {
-            position: relative;
-            width:100%;
-            text-align: center;
             background-image: url('/assets/img/Kon.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 98vh;
     }
 }
-
 
 .intro {
     background-color: #212027;
@@ -56,10 +46,7 @@ body {
     line-height: 5px; }
     @media (min-width: 991px) {
         .intro-header {
-            width: 100%;
-            font-size: 1.4em;
-            text-align: center;
-            top: 30%;
+            font-size: 1.5em;
     } 
 }
 
@@ -73,12 +60,13 @@ body {
     font-weight: bold; }
     @media (min-width: 991px) {
         .intro-description {
-            width: 100%;
-            font-size: 1.4em;
+            font-size: 1.5em;
             text-align: center;
             top: 60%;
     } 
 }
+
+ /********** education section **********/
 .education-menu-box {
     position: relative;
     width: 100%;
@@ -93,7 +81,12 @@ body {
     color: #212027;
     font-size: 23px;
     text-align: center; 
-    font-weight: bold;
+    font-weight: bold; }
+    @media (min-width: 991px) {
+        .education-title {
+            height: 40px;
+            font-size: 27px;
+    } 
 }
 
 .education-container {
@@ -122,6 +115,7 @@ body {
     width: 95%;
 }
 
+ /********** skills section **********/
 .skills {
     position: relative;
 }
@@ -137,9 +131,9 @@ body {
     font-weight: bold;
     float: right; }
     @media (min-width: 991px) {
-        .ul {
+        .skills-title {
             height: 40px;
-            font-size: 30px;
+            font-size: 27px;
     } 
 }
 
@@ -147,7 +141,6 @@ body {
     width: 100%;
     background-color: #212027;
     margin-top: 32px;
-
 }
 
 .skills-wrapper {
@@ -158,7 +151,7 @@ body {
 }
 
 .skill-level, .skill-description {
-    height: 23em;
+    height: 23em;   /* change if alter ul items */
 }
 
 ul {
@@ -167,7 +160,6 @@ ul {
     padding: 0px;
     list-style-type: none;
     text-align: left;
-    /* width: 33%; */
     color: #fff;
     font-family: 'Open Sans';
     font-weight: bold;
@@ -178,12 +170,14 @@ ul {
     } 
 }
 
-
-.beginner {
+/* skill bars */
+.skill-level .beginner, .advanced, .intermediate {
     padding: 4px;
     background: #F22F08;
     border: 8px solid #212027;
     border-radius: 25px;
+}
+.beginner {
     width: 30px; }
     @media (min-width: 991px) {
         .beginner{
@@ -192,10 +186,6 @@ ul {
 }
 
 .intermediate {
-    padding: 4px;
-    background: #F22F08;
-    border: 8px solid #212027;
-    border-radius: 25px;
     width: 60px; }
     @media (min-width: 991px) {
         .intermediate {
@@ -204,17 +194,12 @@ ul {
 }
 
 .advanced {
-    padding: 4px;
-    background: #F22F08;
-    border: 8px solid #212027;
-    border-radius: 25px;
     width: 90px; }
     @media (min-width: 991px) {
         .advanced {
             width: 270px;
     } 
 }
-
 
 .empty {
     padding: 4px;
@@ -224,6 +209,7 @@ ul {
     width: 90px;
 }
 
+ /********** experience section **********/
 .experience-menu-box {
     position: relative;
     width: 100%;
@@ -232,14 +218,19 @@ ul {
 
 .experience-title {
     position: relative;
-    width: 130px;
+    width: 140px;
     height: 32px;
     background-color: #fff;
     font-family: 'Open Sans';
     color: #212027;
     font-size: 23px;
     font-weight: bold;
-    text-align: center;
+    text-align: center; }
+    @media (min-width: 991px) {
+        .skills-title {
+            height: 40px;
+            font-size: 27px;
+    } 
 }
 
 .experience-container {
@@ -265,6 +256,13 @@ ul {
     width: 95%
 }
 
+
+ /********** contact section **********/
+ .contact {
+    position: relative;
+    color: #fff;
+}
+
 .contact-title {
     position: relative;
     width: 130px;
@@ -275,19 +273,18 @@ ul {
     font-size: 23px;
     font-weight: bold;
     text-align: center;
-    float: right;
-}
-
-.contact {
-    position: relative;
-    color: #fff;
+    float: right; }
+    @media (min-width: 991px) {
+        .contact-title {
+            height: 40px;
+            font-size: 27px;
+    } 
 }
 
 .contact-container {
     width: 100%;
     background-color: #212027;
     margin-top: 32px;
-
 }
 
 .contact-wrapper {
@@ -310,10 +307,10 @@ ul {
     }
 } 
 
+/* contact form box */
 .box 
 {
   position: relative;
-  
   top: 50%;
   left: 13%;
   width: 70%;
@@ -389,4 +386,5 @@ ul {
 footer {
     height: 1.5em;
     background-color: #212027;
+    font-family: 'Open Sans'
 }
