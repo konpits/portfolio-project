@@ -22,7 +22,7 @@ Initially, I designed the basic parts of the website on paper. Then I searched f
 
 I decided to create a single page website because I believe that this would give easy access to information without the need to navigate through many pages. This structure gives a clear understanding of content and relates to the form of a CV which is familiar and, therefore, more convenient. 
 
-The chosen colour scheme of this website is pretty simple. The general choice of a dark colour in contrast with white colour leaves enough space to use discretely a stronger colour to emphasise on selected content. I chose a colour between orange and red because it’s a colour that I like and gives that emphasis on some content. All colours are inspired from volcanos-sunsets. 
+The chosen colour scheme of this website is pretty simple. The general choice of a dark colour in contrast with white colour leaves enough space to use discretely a stronger colour to emphasise on selected content. I chose a colour between orange and red because it’s a colour that I like and gives that emphasis on some content. All colours inspiration comes from sunsets-mountains-volcanos. 
 
 I struggled with the typography for the logo because my initial idea didn’t match with the website design and I had to go though all google fonts to test it. I changed the initial idea and made a simple logo that I believe is better after all.  It was easy to pick the two main fonts that where more suitable for my design. I chose a combination of Open Sans and Raleway. 
 
@@ -42,7 +42,11 @@ My Figma project is here:
 
 ### Resources used
 These are the main tools that I used in the process of making my portfolio website
-* Figma, Pintrest, W3schools, Codepen, StackOverflow
+* Figma
+* W3schools
+* Codepen
+* StackOverflow
+* Pintrest
 
 ### Challenges
 * While designing the skills bars it was hard to align them with the skills descriptions. I  had to improvise and the final result was as expected.
@@ -50,11 +54,10 @@ These are the main tools that I used in the process of making my portfolio websi
 * It was tricky to adjust the contact form to match my figma design
 * I had to make a new resized photo as the original did not look good on the mobile version.
 
-### Comments and Changes
-* I would like to animate the skills bars
+### Future Enhancements
+* I would like to add a loading feature for the skill bars as an animation
 * I would like to add a new section of some nice future projects
 * I would like to add a blured box that will appear on hover with some bio paragraph
-* I would like to include some parallax effects because the look good but keep the content light at the same time
+* I would like to include some parallax effects because they look good but keep the content light at the same time
 * I would like to add a menu once the website have more sections
-* Cross browser capabilities - I didn’t really do any work so the website would facilitate for older browsers
 
