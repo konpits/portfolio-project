@@ -1,6 +1,6 @@
 Read Me
 
-www.kon.netlify.com
+[Visit website here](www.kon.netlify.com)
 
 ## Aim
 My aim was to create a website that is as simple as possible in order to attract focused attention on  tailored content and future projects.
