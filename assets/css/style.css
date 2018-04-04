@@ -378,11 +378,12 @@ ul {
 }
 .box .inputBox input:focus ~label,
 .box .inputBox input:valid ~label,
-.box .inputBox textarea:focus ~label
+.box .inputBox textarea:focus ~label,
+.box .inputBox textarea:valid ~label
 {
   top: -18px;
   left: 0;
-    color: #F22F08;
+  color: #F22F08;
   font-size: 12px;
 }
 .box input[type="submit"]
