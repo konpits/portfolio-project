@@ -371,11 +371,10 @@ ul {
 }
 .box input[type="submit"]
 {
-  background: transparent;
   border: none;
   outline: none;
-  color: #F22F08;
-  background: #212027;
+  color: #fff;
+  background: #F22F08;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 2px;
